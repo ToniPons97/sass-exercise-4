@@ -1,0 +1,57 @@
+body {
+  margin: 0.625rem 0.9375rem;
+}
+
+div {
+  border: 0.0625rem solid red;
+  text-align: center;
+}
+div h1, div h2 {
+  color: green;
+  text-decoration: underline;
+  text-decoration-color: blue;
+  text-underline-position: under;
+}
+div h2 {
+  text-decoration: none;
+  padding: 1rem;
+  margin-bottom: 0rem;
+  border: 0.0625rem solid red;
+  display: inline-block;
+}
+
+section {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 1.25rem;
+}
+section article:nth-child(odd) {
+  width: 12.5rem;
+  height: 6.25rem;
+  border: 1px solid green;
+  flex-grow: 1;
+  padding: 0.625rem;
+  font-size: 1rem;
+  color: blue;
+}
+section article:nth-child(even) {
+  width: 12.5rem;
+  height: 6.25rem;
+  border: 1px solid green;
+  flex-grow: 1;
+  padding: 0.625rem;
+  font-size: 1rem;
+  color: red;
+}
+section #footer {
+  width: 12.5rem;
+  height: 6.25rem;
+  border: 1px solid blue;
+  flex-grow: 1;
+  padding: 0.625rem;
+  font-size: 1.5rem;
+  color: green;
+}
+
+/*# sourceMappingURL=style.css.map */
