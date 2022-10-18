@@ -1,10 +1,6 @@
 @use 'variables' as vars;
 @use 'px_to_rem';
 
-$first-color: vars.$primary;
-$second-color: vars.$secondary;
-$third-color: vars.$ternary;
-
 body {
     margin: px_to_rem.convert(10px) px_to_rem.convert(15px);
 }
